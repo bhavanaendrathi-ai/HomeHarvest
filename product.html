@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <nav>
+        <div class="nav1">
+            <b><a href="index.html">HomeHarvest</a></b>
+        </div>
+
+        <input type="checkbox" id="menu">
+
+        <label for="menu" class="menu-icon">
+            <i class="bi bi-list"></i>
+        </label>
+
+        <div class="nav2">
+            <h6 style="color: #28a745;"><a href="index.html">Home</a></h6>
+            <h6><a href="product.html">Shop</a></h6>
+            <i class="bi bi-cart-fill"></i>
+        </div>
+    </nav>
+
+    <section class="products">
+    <h2 class="product-title">Our Products</h2>
+
+    <div class="search">
+    <input type="text" id="searchInput" placeholder="Search products...">
+
+    <select id="filterCategory">
+        <option value="all">All</option>
+        <option value="fruit">Fruits</option>
+        <option value="vegetable">Vegetables</option>
+        <option value="dairy">Dairy</option>
+        <option value="homemade">Bakery</option>
+    </select>
+    </div>
+
+        <div class="product-grid">
+
+            <div class="product-card" data-category="fruit">
+            <img src="https://i.pinimg.com/736x/48/61/c6/4861c6ccb0d7fbaf469a166b79f9cbfc.jpg" alt="">
+            <div class="product-info">
+                <h3>Apples</h3>
+                <p><span>₹200</span> / kg</p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="fruit">
+            <img src="https://i.pinimg.com/736x/67/ff/04/67ff0431ed4ecbf10ebed90c15eb6d0a.jpg" alt="">
+            <div class="product-info">
+                <h3>Fresh Bananas</h3>
+                <p><span>₹19</span> / dozen</p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="vegetable">
+            <img src="https://i.pinimg.com/736x/09/2b/28/092b28de2906261662f0a9d9e294f452.jpg" alt="">
+            <div class="product-info">
+                <h3>Spinach</h3>
+                <p><span>₹35</span> / bag</p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="dairy">
+            <img src="https://i.pinimg.com/1200x/46/98/1e/46981e01102b3c167fc4ed3e08af93f3.jpg" alt="">
+            <div class="product-info">
+                <h3>Whole Milk</h3>
+                <p><span>₹34</span> / lit</p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="homemade">
+            <img src="https://i.pinimg.com/736x/53/18/d3/5318d33fa7759dfc925aa76290b39737.jpg" alt="">
+            <div class="product-info">
+                <h3>Potato Chips(Homemade)</h3>
+                <p><span>₹25</span></p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="vegetable">
+            <img src="https://i.pinimg.com/736x/08/68/f5/0868f5154fa555941de137c5cd3f7e23.jpg" alt="">
+            <div class="product-info">
+                <h3>Carrots</h3>
+                <p><span>₹99</span> / kg</p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="fruit">
+            <img src="https://i.pinimg.com/736x/17/32/b0/1732b0a19a2caa9adf7f9a0718e8d781.jpg" alt="">
+            <div class="product-info">
+                <h3>Grapes</h3>
+                <p><span>₹100</span> / kg</p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="vegetable">
+            <img src="https://i.pinimg.com/1200x/2b/d1/fe/2bd1feb9a59da17ca25723f5eec26b80.jpg" alt="">
+            <div class="product-info">
+                <h3>Tomatoes</h3>
+                <p><span>₹40</span> / kg</p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="vegetable">
+            <img src="https://i.pinimg.com/1200x/83/c6/11/83c6117e4fb791964dcba7d5aad4cc09.jpg" alt="">
+            <div class="product-info">
+                <h3>Organic Broccoli</h3>
+                <p><span>₹100</span> / bunch</p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="fruit">
+            <img src="https://i.pinimg.com/1200x/54/f9/11/54f911399e66d3a9730f60287c9e7989.jpg" alt="">
+            <div class="product-info">
+                <h3>Strawberries</h3>
+                <p><span>₹99</span> / box</p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="dairy">
+            <img src="https://i.pinimg.com/736x/76/63/d8/7663d819298c4727ce19cc0d4d21a9f5.jpg" alt="">
+            <div class="product-info">
+                <h3>Eggs</h3>
+                <p><span>₹60</span> / dozen</p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="homemade">
+            <img src="https://i.pinimg.com/1200x/9a/20/23/9a20234681b2d809c9b00ea8e8c76d64.jpg" alt="">
+            <div class="product-info">
+                <h3>Cookie(Homemade)</h3>
+                <p><span>₹90</span> / box</p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="vegetable">
+            <img src="https://i.pinimg.com/736x/e5/c1/21/e5c12168bf5573dd4a6a5cd36d544218.jpg" alt="">
+            <div class="product-info">
+                <h3>Onions</h3>
+                <p><span>₹40</span> / kg</p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="dairy">
+            <img src="https://i.pinimg.com/736x/8a/8a/87/8a8a87a3c7c3ca895a56e0f1f218d26d.jpg" alt="">
+            <div class="product-info">
+                <h3>Desi Ghee</h3>
+                <p><span>₹650</span> / lit</p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="dairy">
+            <img src="https://i.pinimg.com/736x/b4/23/2f/b4232f3271836e8ccf024296e16df204.jpg" alt="">
+            <div class="product-info">
+                <h3>Butter</h3>
+                <p><span>₹110</span> / 200g</p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="vegetable">
+            <img src="https://i.pinimg.com/1200x/29/5a/5a/295a5a7a31d97159b48ded9ee1b97c44.jpg" alt="">
+            <div class="product-info">
+                <h3>Capsicum</h3>
+                <p><span>₹80</span> / kg</p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="homemade">
+            <img src="https://i.pinimg.com/1200x/d7/e2/b5/d7e2b59c1c042798710fd8817a4199a6.jpg" alt="">
+            <div class="product-info">
+                <h3>Banana Bread (Homemade)</h3>
+                <p><span>₹120</span></p>
+            </div>
+            </div>
+
+            <div class="product-card" data-category="homemade">
+            <img src="https://i.pinimg.com/736x/3c/3e/2b/3c3e2bd36c1cec378f1e161a1f885350.jpg" alt="">
+            <div class="product-info">
+                <h3>Pickle (Homemade)</h3>
+                <p><span>₹180</span> / jar</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="scroll-top"><i class="bi bi-arrow-up-short"></i></div>
+
+    <div class="popup" id="popup">
+
+  <div class="popup-content">
+
+    <span id="closePopup">&times;</span>
+
+
+    <img id="popupImg" src="" alt="">
+    <div class="popup-text">
+      <h3 id="popupTitle"></h3>
+      <p id="popupPrice"></p>
+      <p id="popupCategory">Category: Fruits</p>
+      <p id="popupDesc">
+        Fresh organic product from farm. Healthy and natural.
+      </p>
+      <button id="addToCart">Add to Cart</button>
+      <button id="buyNow">Buy Now</button>
+    </div>
+  </div>
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
