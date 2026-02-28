@@ -461,6 +461,11 @@ body.showCart .cartTab {
         height: 200px;
     }
 
+    .popup button {
+      font-size: 16px;
+      padding: 12px;
+    }
+
 }
 
 

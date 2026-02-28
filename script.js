@@ -151,3 +151,15 @@ function removeItem(index){
 
 //display cart items on page load
 showCart();
+
+//checkout functionality
+document.getElementById("checkOut").addEventListener("click", function () {
+  if (cart.length === 0) {
+    alert("Your cart is empty!");
+    return;
+  }
+  alert("Order placed successfully!");
+  localStorage.removeItem("cart");
+  cart = [];
+  showCart();
+});
